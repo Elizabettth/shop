@@ -1,0 +1,36 @@
+.Hits {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Hits__product {
+  margin: 50px 0;
+}
+
+.Hits__container {
+  background-image: url("./../../assets/hero-bg4.jpg");
+}
+
+.Hits__text {
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black;
+  color: snow;
+}
+
+.Hits__btn {
+  background: #159288;
+}
+
+.Hits__prs {
+  font-size: 110px;
+}
+
+.Hits__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 30px 45px;
+  text-shadow: 1px 1px 2px black;
+  border-left: gray;
+  font-weight: 700;
+}

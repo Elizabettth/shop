@@ -1,0 +1,32 @@
+.New {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.New_product {
+  margin: 50px 0;
+}
+
+.New__container {
+  background-image: url("./../../assets/hero-bg3.jpg");
+}
+
+.New__text {
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black;
+  color: snow;
+}
+
+.New__btn {
+  background: #92157d;
+}
+
+.New__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 30px 45px;
+  text-shadow: 1px 1px 2px black;
+  border-left: gray;
+  font-weight: 700;
+}

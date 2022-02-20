@@ -1,0 +1,32 @@
+.Button {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  transition: all 500ms ease;
+  border: none;
+  color: #f2f2f2;
+  padding: 10px 45px;
+  font-size: 18px;
+  position: relative;
+}
+
+.Button:before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  position: absolute;
+  height: 100%;
+  transition: all 1s ease;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.Button:hover:before {
+  width: 100%;
+}
+
+.Button__arrow {
+  margin-left: 20px;
+}

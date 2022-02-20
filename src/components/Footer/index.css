@@ -1,0 +1,63 @@
+.footer {
+  background: #171819;
+  color: #fff;
+  text-align: center;
+  text-align: left;
+}
+
+.footer__sign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.footer__sign-title {
+  font-family: "Open Sans";
+  font-size: 22px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  margin-right: 70px;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__input {
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0.07px;
+  color: #48555b;
+  padding: 10px 90px 10px 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.footer__sign-up {
+  border: none;
+  outline: none;
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background: #0b8fb8;
+  padding: 10px 50px;
+}
+
+.footer__sign-up:hover {
+  background: #00aeff;
+}
+
+.footer__copy-right {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  font-family: "Open Sans";
+  font-size: 11px;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+}

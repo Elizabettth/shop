@@ -1,0 +1,13 @@
+.Random__price {
+  display: flex;
+  justify-content: center;
+}
+
+.Random__product {
+  text-align: center;
+}
+
+.Random img {
+  max-height: 150px;
+  width: auto;
+}

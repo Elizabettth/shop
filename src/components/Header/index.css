@@ -1,0 +1,37 @@
+.Header__container {
+  display: flex;
+  background: black;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  background: none;
+  transition: 300ms;
+}
+
+.Header__list {
+  display: flex;
+}
+
+.Header__container:hover {
+  background: black;
+}
+
+.Header__container:hover .Header__link {
+  color: white;
+  text-shadow: none;
+}
+
+.Header__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 30px 45px;
+  text-shadow: 1px 1px 2px black;
+  border-left: gray;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Header__link-item > .active {
+  border-bottom: 1px solid #333;
+}
