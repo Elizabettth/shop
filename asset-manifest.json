@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.5f0bbcd9.chunk.css",
-    "main.js": "/shop/static/js/main.b5c55efb.chunk.js",
-    "main.js.map": "/shop/static/js/main.b5c55efb.chunk.js.map",
+    "main.css": "/shop/static/css/main.32169b15.chunk.css",
+    "main.js": "/shop/static/js/main.3ba0a8de.chunk.js",
+    "main.js.map": "/shop/static/js/main.3ba0a8de.chunk.js.map",
     "runtime-main.js": "/shop/static/js/runtime-main.a2037c30.js",
     "runtime-main.js.map": "/shop/static/js/runtime-main.a2037c30.js.map",
-    "static/js/2.2dafb146.chunk.js": "/shop/static/js/2.2dafb146.chunk.js",
-    "static/js/2.2dafb146.chunk.js.map": "/shop/static/js/2.2dafb146.chunk.js.map",
+    "static/js/2.a2ea4357.chunk.js": "/shop/static/js/2.a2ea4357.chunk.js",
+    "static/js/2.a2ea4357.chunk.js.map": "/shop/static/js/2.a2ea4357.chunk.js.map",
     "index.html": "/shop/index.html",
-    "static/css/main.5f0bbcd9.chunk.css.map": "/shop/static/css/main.5f0bbcd9.chunk.css.map",
-    "static/js/2.2dafb146.chunk.js.LICENSE.txt": "/shop/static/js/2.2dafb146.chunk.js.LICENSE.txt",
+    "static/css/main.32169b15.chunk.css.map": "/shop/static/css/main.32169b15.chunk.css.map",
+    "static/js/2.a2ea4357.chunk.js.LICENSE.txt": "/shop/static/js/2.a2ea4357.chunk.js.LICENSE.txt",
     "static/media/index.css": "/shop/static/media/hero-bg5.129539ac.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a2037c30.js",
-    "static/js/2.2dafb146.chunk.js",
-    "static/css/main.5f0bbcd9.chunk.css",
-    "static/js/main.b5c55efb.chunk.js"
+    "static/js/2.a2ea4357.chunk.js",
+    "static/css/main.32169b15.chunk.css",
+    "static/js/main.3ba0a8de.chunk.js"
   ]
 }
