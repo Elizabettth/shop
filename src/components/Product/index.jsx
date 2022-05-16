@@ -11,9 +11,12 @@ function Product({ item }) {
   const [price, setPrice] = useState(0);
   const [category, setCategory] = useState("all");
 
-  function onClickHandleCart() {}
+  function onClickHandleCart() {
+    dispatch({type: "ADD_TO_CART",payload: item})
+  }
   return (
     <div className="categories__product">
+      {console.log(item)}
       <button onClick={onClickHandleCart}>add to cart</button>
       <div>
         <img src={item.image_link} />
@@ -24,6 +27,22 @@ function Product({ item }) {
         <div className="categories__product">{item.name}</div>
       </div>
     </div>
+  );
+}
+
+export   function ProductCard({ item }) {
+
+  return (
+      <div className="categories__product">
+        <div>
+          <img src={item.image_link} />
+          <div className="categories__price">
+            <div>{item.price}</div>
+            <div>{item.price_sign}</div>
+          </div>
+          <div className="categories__product">{item.name}</div>
+        </div>
+      </div>
   );
 }
 

@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./index.css";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../../redux/thunk";
-import Product from "../../components/Product";
+import Product, {ProductCard} from '../../components/Product';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 
 function Category() {
   const dispatch = useDispatch();
@@ -22,6 +24,8 @@ function Category() {
   }
 
   return (
+      <>
+        <Header/>
     <div className="categories">
       <form className="categories__fiter">
         <select className="categories__select" onChange={handleSelect}>
@@ -81,7 +85,14 @@ function Category() {
         )}
       </div>
     </div>
+        <Footer/>
+      </>
   );
 }
+
+export const CartContainer = ({items}) => <div className="categories__products">
+  {console.log(items)}
+  {items && items.length > 0 && items.map((item, index)=><ProductCard item={item} key={index}/>)}
+</div>
 
 export default Category;
